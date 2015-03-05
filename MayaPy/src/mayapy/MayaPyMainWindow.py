@@ -11,6 +11,7 @@ from mayapy.views.assignment1.Assignment1Widget import Assignment1Widget
 from mayapy.views.assignment2.Assignment2Widget import Assignment2Widget
 from mayapy.views.assignment3.Assignment3Widget import Assignment3Widget
 from mayapy.views.assignment4.Assignment4Widget import Assignment4Widget
+from mayapy.views.final.FinalWidget import FinalWidget
 
 
 #___________________________________________________________________________________________________ MayaPyMainWindow
@@ -29,7 +30,8 @@ class MayaPyMainWindow(PyGlassWindow):
                 'assignment1':Assignment1Widget,
                 'assignment2':Assignment2Widget,
                 'assignment3':Assignment3Widget,
-                'assignment4':Assignment4Widget},
+                'assignment4':Assignment4Widget,
+                'final':FinalWidget},
             title='MayaPy',
             **kwargs )
 
